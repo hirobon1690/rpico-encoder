@@ -4,4 +4,5 @@ Based on [pico-examples](https://github.com/raspberrypi/pico-examples/tree/maste
 
 ### Usage
 Using PlatformIO and [wizio-pico](https://github.com/Wiz-IO/wizio-pico) platform, clone this repository under `$PROJECT_DIR/lib`.
-In `main.cpp`, include `encoder.h`.
+- Add `board_build.pio = lib/rpico-encoder/encoder.pio` to `platformio.ini`
+- In `main.cpp`, include `encoder.h`.
